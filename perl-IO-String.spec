@@ -4,12 +4,12 @@
 Summary:	IO::String perl module
 Summary(pl):	Modu³ perla IO::String
 Name:		perl-IO-String
-Version:	1.03
-Release:	2
+Version:	1.04
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	8e82f109313d055a9345dc722f700a8c
+# Source0-md5:	06252e259f0474133fe3136e9c3ce103
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -42,5 +42,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%{perl_vendorlib}/IO/String.pm
+%{perl_vendorlib}/%{pdir}/%{pnam}.pm
 %{_mandir}/man3/*
