@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	IO
 %define	pnam	String
-Summary:	IO-String perl module
-Summary(pl):	Modu³ perla IO-String
+Summary:	IO::String perl module
+Summary(pl):	Modu³ perla IO::String
 Name:		perl-IO-String
 Version:	1.01
 Release:	6
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-IO-String module provide the IO::File interface for in-core strings.
+IO::String module provide the IO::File interface for in-core strings.
 
 %description -l pl
-Modu³ perla IO-String.
+Modu³ perla IO::String.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
