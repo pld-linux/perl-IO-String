@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	IO
 %define	pnam	String
-%include	/usr/lib/rpm/macros.perl
 Summary:	IO-String perl module
 Summary(pl):	Modu³ perla IO-String
 Name:		perl-IO-String
 Version:	1.01
-Release:	5
-
+Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ IO-String module provide the IO::File interface for in-core strings.
 Modu³ perla IO-String.
 
 %prep
-%setup -q -n IO-String-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
