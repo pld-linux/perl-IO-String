@@ -3,7 +3,7 @@ Summary:	IO-String perl module
 Summary(pl):	Modu³ perla IO-String
 Name:		perl-IO-String
 Version:	1.01
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
