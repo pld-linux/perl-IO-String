@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	IO
-%define	pnam	String
+%define		pdir	IO
+%define		pnam	String
 Summary:	IO::String perl module
 Summary(pl):	Modu³ perla IO::String
 Name:		perl-IO-String
