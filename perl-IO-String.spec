@@ -4,12 +4,12 @@
 Summary:	IO::String perl module
 Summary(pl):	Modu³ perla IO::String
 Name:		perl-IO-String
-Version:	1.02
+Version:	1.03
 Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	74b27438d4f774cd6feea86adb9a7bdc
+# Source0-md5:	8e82f109313d055a9345dc722f700a8c
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -29,6 +29,7 @@ znaków.
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make}
+%{__make} test
 
 %install
 rm -rf $RPM_BUILD_ROOT
