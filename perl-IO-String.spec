@@ -8,13 +8,13 @@
 Summary:	IO::String perl module
 Summary(pl):	Modu³ perla IO::String
 Name:		perl-IO-String
-Version:	1.07
+Version:	1.08
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	aeb4fcc3b6a9da5765c75867609a7e56
+# Source0-md5:	250e5424f290299fc3d6b5d1e9da3835
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
