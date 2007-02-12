@@ -6,7 +6,7 @@
 %define		pdir	IO
 %define		pnam	String
 Summary:	IO::String perl module
-Summary(pl):	Modu³ perla IO::String
+Summary(pl.UTF-8):   ModuÅ‚ perla IO::String
 Name:		perl-IO-String
 Version:	1.08
 Release:	1
@@ -23,9 +23,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 IO::String module emulates the IO::File interface for in-core strings.
 
-%description -l pl
-Modu³ Perla IO::String, emuluj±cy interfejs IO::File dla ci±gów
-znaków.
+%description -l pl.UTF-8
+ModuÅ‚ Perla IO::String, emulujÄ…cy interfejs IO::File dla ciÄ…gÃ³w
+znakÃ³w.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
