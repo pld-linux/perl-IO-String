@@ -6,7 +6,7 @@
 %define		pdir	IO
 %define		pnam	String
 Summary:	IO::String perl module
-Summary(pl.UTF-8):   Moduł perla IO::String
+Summary(pl.UTF-8):	Moduł perla IO::String
 Name:		perl-IO-String
 Version:	1.08
 Release:	1
