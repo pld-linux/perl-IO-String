@@ -5,16 +5,17 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	IO
 %define		pnam	String
-Summary:	IO::String perl module
-Summary(pl.UTF-8):	Moduł perla IO::String
+Summary:	IO::String - emulate file interface for in-core strings
+Summary(pl.UTF-8):	IO::String - emulacja interfejsu plikowego dla ciągów znaków
 Name:		perl-IO-String
 Version:	1.08
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/IO/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	250e5424f290299fc3d6b5d1e9da3835
+URL:		http://search.cpan.org/dist/IO-String/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -49,5 +50,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%{perl_vendorlib}/%{pdir}/%{pnam}.pm
+%{perl_vendorlib}/IO/String.pm
 %{_mandir}/man3/*
