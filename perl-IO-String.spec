@@ -9,7 +9,7 @@ Summary:	IO::String - emulate file interface for in-core strings
 Summary(pl.UTF-8):	IO::String - emulacja interfejsu plikowego dla ciągów znaków
 Name:		perl-IO-String
 Version:	1.08
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
