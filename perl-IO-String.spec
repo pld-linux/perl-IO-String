@@ -51,4 +51,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc Changes README
 %{perl_vendorlib}/IO/String.pm
-%{_mandir}/man3/*
+%{_mandir}/man3/IO::String.3pm*
